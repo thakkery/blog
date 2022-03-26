@@ -4,14 +4,14 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `Nowispow`,
-    siteTitleAlt: `Nowispow - Knowledge is Power`,
-    siteHeadline: `Nowispow - The Web Development Guild`,
-    siteUrl: `https://nowispow.com`,
+    siteTitle: `Yatit Thakker`,
+    siteTitleAlt: `Yatit Thakker`,
+    siteHeadline: `Yatit Thakker - Renaissance Engineer`,
+    siteUrl: `https://kapisce.com`,
     siteDescription: `Learn modern web development from beginner to advanced`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@nowispow`,
+    author: `@thakker_yatit`,
   },
   plugins: [
     {
@@ -52,9 +52,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Nowispow - The Web Development Guild`,
-        short_name: `Nowispow`,
-        description: `Learn modern web development from beginner to advanced`,
+        name: `Yatit Thakker - Renaissance Engineer`,
+        short_name: `Yatit Thakker`,
+        description: `The personal blog of Yatit Thakker`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
@@ -119,7 +119,7 @@ module.exports = {
               }
             `,
             output: `rss.xml`,
-            title: `Nowispow - @lekoarts/gatsby-theme-minimal-blog`,
+            title: `Yatit Thakker`,
           },
         ],
       },
